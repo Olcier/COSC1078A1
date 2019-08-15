@@ -1,2 +1,2 @@
-# COSC1078A1
-Intro to IT A1
+# COSC1078-BasicTemplate
+COSC1078 - BasicTemplate for student use.
