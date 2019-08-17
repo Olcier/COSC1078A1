@@ -18,9 +18,17 @@ body {
   padding:25px;
 }
 
+#wrapper {
+  float:inherit;
+}
+
 #dp {
   border-radius:50%;
   background:#CDC9A5;
+}
+
+#pi {
+  float:right; font-size:0.8751em;
 }
 
 h1 {
@@ -32,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-family:Courier;
+  font-family:Helvetica;
 }
 
 div {
@@ -56,11 +64,11 @@ p {
 
 <body>
   <!-- Wrap -->
-  <div id="wrapper">
-    <section id="personal info">
+  <div>
+    <section>
 
       <!-- Image -->
-      <section style="float:center;">
+      <section id="wrapper">
         <img src="img/Rainy.jpg" id="dp">
         <dl style="font-size:1.2751em">
         <dd><b>Name: </b>Rainul Islam Avash</dd>
@@ -69,7 +77,7 @@ p {
       </section>
 
 		  <!-- Head -->
-      <section style="float:right; font-size:0.8751em">
+      <section id="pi">
 			<header class="sectionHeading">
 			  <h1>Personal Information</h1>
 			</header>
